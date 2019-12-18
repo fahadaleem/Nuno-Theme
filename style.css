@@ -1,0 +1,355 @@
+
+
+/*============= COURSE SECTION =============*/
+*
+{
+  font-family: 'Lato', sans-serif;
+}
+
+.header
+{
+  background-image: url(img/computers.png);
+  height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.header-content
+{
+  width: 100%;
+  max-width: 100%;
+  margin:auto;
+  padding-top:200px;
+}
+.intro
+{
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 300px;
+  font-size:3.8rem;
+}
+
+.header-content h3
+{
+  font-size: 2rem;
+  color:white;
+  padding-top: 10px;
+}
+
+.navbar
+{
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+
+.nav-link
+{
+color:white !important;
+font-size:18px;
+margin-right:20px;
+letter-spacing: 0.1rem;
+}
+.active
+{
+  color:#17BBA3 !important;
+}
+.nav-link:hover
+{
+color:#17BBA3 !important;
+}
+
+.header-btn
+{
+  padding:10px 30px 10px 30px;
+  background-color: transparent;
+  color:white;
+  border:2px solid white !important;
+  margin-top: 15px;
+}
+
+.header-btn:hover
+{
+  background-color: #17BBA3;
+  color:white;
+  border-style: 2px solid #17BBA3!important;
+}
+
+.jumb-para
+{
+  font-size:1.6rem !important;
+}
+
+.jumb-section
+{
+  background-color: white;
+}
+
+.jumbotron
+{
+  background-color:white !important;
+}
+
+.jumb-btn
+{
+  background-color: #17BBA3;
+  color:white;
+  text-transform: uppercase;
+  border:1px solid #17BBA3 !important;
+  padding:10px 20px 10px 20px;
+}
+.jumb-btn:hover
+{
+  background-color: rgb(15, 94, 82);
+  border:1px solid rgb(15, 94, 82);
+
+}
+
+.features-sec
+{
+  background-color: #E8E9EE;
+  padding-bottom: 5rem;
+}
+
+.feature-heading
+{
+  font-weight: 700;
+  font-size: 3rem;
+  padding-top:80px;
+  color:#66666C;
+}
+
+#line
+{
+  border:2px solid #17BBA3;
+  width:3rem;
+  margin-top:25px;
+}
+
+
+
+.icon
+{
+  color:#17BBA3;
+  font-size:3.2rem;
+}
+
+.custom-anim
+{
+  padding-top:10px;
+  color:#66666C;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.features-description
+{
+  color:gray;
+  font-size: 1.2rem;
+}
+
+.row
+{
+  padding-top:20px;
+}
+
+.fixed-background
+{
+  background-image: url(img/apple.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.built-section
+{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.built-heading
+{
+  color:white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top:10rem;
+}
+
+.built-section-heading
+{
+  color:white;
+  text-transform: uppercase;
+  padding-top:20px;
+  font-weight: 400;
+}
+
+.built-section-lable
+{
+  color:white;
+  font-size:1.2rem;
+}
+
+.built-row
+{
+  padding-bottom: 5rem;
+}
+
+.built-section-icon
+{
+  margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+.clients-section
+{
+background-color: #E8E9EE;
+padding-bottom: 5rem;;
+}
+.client-img
+{
+  width: 100%;
+}
+
+.client-line
+{
+  border: 1px solid #17BBA3;
+}
+
+.client-icon
+{
+  color:#17BBA3;
+  margin:1rem;
+}
+
+.end-jumb-btn
+{
+  margin-top:2rem;
+  background-color: #17BBA3;
+  text-transform: uppercase;
+  color:white;
+  border:none;
+  padding:15px 30px 15px 30px;
+}
+
+.end-jumb-heading
+{
+  padding-top:2rem;
+}
+
+.container-footer
+{
+  
+  width: 40%;
+  margin: auto;
+  padding-top:7rem;
+}
+
+.footer
+{
+  background-color: #393E47;
+}
+
+.footer-description
+{
+  color:white;
+  font-size: 18px;;
+}
+
+.footer-icon
+{
+  color:white;
+  font-size:20px;
+  margin:5px;
+}
+
+.footer-icon:hover
+{
+  color:#17BBA3;
+}
+
+.client-heading
+{
+  font-weight: 700;
+  color:#66666C;
+  padding-top:80px;
+}
+
+
+
+
+
+@media (max-width:767px)
+{
+  .intro
+  {
+    padding-top:2rem;
+    font-size: 2.3rem;
+  }
+
+  .header-content h3
+  {
+    font-size: 2rem;
+  }
+
+  .jumb-heading
+  {
+    font-size: 1.6rem;
+  }
+  .jumb-para
+  {
+    font-size: 1rem !important;
+  }
+  .jumb-btn
+{
+ 
+  padding:5px 15px 5px 15px;
+}
+
+.client-img
+{
+  max-width: 50%;
+  display: block;
+  margin:auto;
+
+}
+
+.end-jumb-heading
+{
+  font-size: 1.6rem;
+}
+
+.end-jumb-btn
+{
+  padding:10px 15px 10px 15px;
+}
+
+.container-footer
+{
+  width: 100%;
+  margin:auto;
+}
+
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
